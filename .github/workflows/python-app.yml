@@ -20,7 +20,7 @@ jobs:
         source env/bin/activate
         pip install -r requirements.txt
 
-    - name: Run application and save output to file
+    - name: Run application and output to console
       run: |
         source env/bin/activate
-        python app.py > configs.txt
+        python app.py
