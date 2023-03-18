@@ -39,4 +39,4 @@ jobs:
         git remote add origin https://github.com/Bardiafa/Free-V2ray-Config.git
         git push origin main
       env:
-        GITHUB_TOKEN: ${{ secrets.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 }}
+        GITHUB_TOKEN: ${{ secrets.YOUR_TOKEN }}
