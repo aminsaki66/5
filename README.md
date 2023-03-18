@@ -4,7 +4,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Update Configs](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml/badge.svg)](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml)
 
 ## Usage
-👉 To use one of these configurations, simply open the configs.txt file located in the root directory. This file contains a list of links to various V2ray configuration files that you can use with your V2ray client. Copy the link of the configuration file you want to use from the configs.txt file and import it into your V2ray client. Refer to your client's documentation for more information on how to do this.
+👉 To use one of these configurations, simply open the [configs.txt](https://github.com/Bardiafa/Free-V2ray-Config/blob/main/configs.txt) file located in the root directory. This file contains a list of links to various V2ray configuration files that you can use with your V2ray client. Copy the link of the configuration file you want to use from the configs.txt file and import it into your V2ray client. Refer to your client's documentation for more information on how to do this.
 
 ⏰ Please note that the configs.txt file is updated every 10 minutes with newer configurations, so make sure to always use the latest version to ensure the best possible performance and security.
 
