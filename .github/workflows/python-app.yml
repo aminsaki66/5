@@ -28,10 +28,13 @@ jobs:
       run: python app.py > configs.txt
 
     - name: Commit and push files
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: EndBug/add-and-commit@v7
       with:
-        commit_message: Update configs.txt
-        file_pattern: configs.txt
-        branch: main
-      env:
-        GITHUB_TOKEN: ${{ secrets.YOUR_TOKEN }}
+        author_name: "Github Actions" 
+        author_email: "actions@github.com"
+        message: "Update configs.txt"
+        add: "."
+        push: "ssh://git@github.com/Bardiafa/Free-V2ray-Config.git"
+    env:
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
