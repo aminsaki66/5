@@ -12,5 +12,9 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+        ssh-known-hosts: github.com
     - name: Test SSH connection
-      run: ssh -T git@github.com
+      run: |
+        eval `ssh-agent -s`
+        ssh-add - <<<"${{ secrets.SSH_PRIVATE_KEY }}"
+        ssh -T git@github.com
