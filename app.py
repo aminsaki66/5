@@ -12,8 +12,7 @@ def decode_base64(encoded):
     return decoded
 
 def generate_v2ray_configs(decoded_data):
-    # Generate v2ray configs based on decoded data
-    # Replace this logic with your own implementation
+
     configs = []
 
     for i, data in enumerate(decoded_data):
