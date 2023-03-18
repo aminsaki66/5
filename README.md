@@ -7,10 +7,10 @@
 ⏰ Please note that the configs.txt file is updated every 10 minutes with newer configurations, so make sure to always use the latest version to ensure the best possible performance and security.
 
 ## Requirements and How to Use
-📲 Here are some ways to use V2ray on different operating systems:
+📲 Here are best ways to use V2ray on different operating systems:
 
 ### 💻 Windows
-On Windows, we recommend using V2rayN or the official V2ray client. To import a configuration file, simply right-click on the V2rayN icon in the system tray, select "Import from clipboard", and paste the configuration link. For the official client, click on the "V" icon in the system tray and select "Import Config".
+On Windows, we recommend using [!Nekoray](https://github.com/MatsuriDayo/nekoray) client. To import a configuration file, simply right-click on the V2rayN icon in the system tray, select "Import from clipboard", and paste the configuration link. For the official client, click on the "V" icon in the system tray and select "Import Config".
 
 ### 🤖 Android
 On Android, we recommend using V2rayNG. To import a configuration file, open the app and click on the "+" icon in the bottom right corner. Then, select "Import Config from Clipboard" and paste the configuration link.
