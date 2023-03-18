@@ -37,6 +37,6 @@ jobs:
         git commit -m "Update configs.txt"
         git remote rm origin
         git remote add origin https://github.com/Bardiafa/Free-V2ray-Config.git
-        git push origin main
+        git push -v origin main
       env:
         GITHUB_TOKEN: ${{ secrets.YOUR_TOKEN }}
