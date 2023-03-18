@@ -30,10 +30,16 @@ jobs:
         source env/bin/activate
         python app.py > configs.txt
 
-    - name: Create a commit for configs.txt
+    - name: Configure git
       run: |
         git config --global user.name 'Github Actions'
         git config --global user.email 'actions@github.com'
+
+    - name: Push changes to repository
+      env:
+        ACCESS_TOKEN: ${{ secrets.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 }}
+      run: |
+        git remote set-url origin https://Bardiafa:${{ env.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 }}@github.com/Bardiafa/Free-V2ray-Config.git
         git add configs.txt
         git commit -m "Update configs.txt"
         git push origin main
