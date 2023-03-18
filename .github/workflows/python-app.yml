@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -30,16 +29,14 @@ jobs:
         source env/bin/activate
         python app.py > configs.txt
 
-    - name: Configure git
+    - name: Create a commit for configs.txt
       run: |
         git config --global user.name 'Github Actions'
         git config --global user.email 'actions@github.com'
-
-    - name: Push changes to repository
-      env:
-        ACCESS_TOKEN: ${{ secrets.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 }}
-      run: |
-        git remote set-url origin https://Bardiafa:${{ env.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 }}@github.com/Bardiafa/Free-V2ray-Config.git
         git add configs.txt
         git commit -m "Update configs.txt"
+        git remote rm origin
+        git remote add origin https://github.com/Bardiafa/Free-V2ray-Config.git
         git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.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 }}
