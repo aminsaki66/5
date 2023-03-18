@@ -1,7 +1,9 @@
 # 🔒 Free V2ray Config 🌐
 💻 This repository contains a collection of free V2ray configuration files that you can use with your V2ray client to access the internet securely and anonymously.
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![GitHub stars](https://img.shields.io/github/stars/Bardiafa/Free-V2ray-Config.svg)](https://github.com/Bardiafa/Free-V2ray-Config/stargazers) [![Update Configs](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml/badge.svg)](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![GitHub stars](https://img.shields.io/github/stars/Bardiafa/Free-V2ray-Config.svg)](https://github.com/Bardiafa/Free-V2ray-Config/stargazers) [![Update Configs](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml/badge.svg)](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml) ![GitHub repo size](https://img.shields.io/github/repo-size/Bardiafa/Free-V2ray-Config) [![CodeFactor](https://www.codefactor.io/repository/github/Bardiafa/Free-V2ray-Config/badge)](https://www.codefactor.io/repository/github/Bardiafa/Free-V2ray-Config)
+
+
 
 ## Usage
 👉 To use one of these configurations, simply open the [configs.txt](https://github.com/Bardiafa/Free-V2ray-Config/blob/main/configs.txt) file located in the root directory. This file contains a list of links to various V2ray configuration files that you can use with your V2ray client. Copy the link of the configuration file you want to use from the configs.txt file and import it into your V2ray client. Refer to your client's documentation for more information on how to do this.
