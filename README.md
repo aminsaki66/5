@@ -1,6 +1,8 @@
 # 🔒 Free V2ray Config 🌐
 💻 This repository contains a collection of free V2ray configuration files that you can use with your V2ray client to access the internet securely and anonymously.
 
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
 ## Usage
 👉 To use one of these configurations, simply open the configs.txt file located in the root directory. This file contains a list of links to various V2ray configuration files that you can use with your V2ray client. Copy the link of the configuration file you want to use from the configs.txt file and import it into your V2ray client. Refer to your client's documentation for more information on how to do this.
 
