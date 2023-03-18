@@ -9,17 +9,14 @@
 ## Requirements and How to Use
 📲 Here are best ways to use V2ray on different operating systems:
 
-### 💻 Windows
-On Windows, we recommend using [!Nekoray](https://github.com/MatsuriDayo/nekoray) client. To import a configuration file, simply right-click on the V2rayN icon in the system tray, select "Import from clipboard", and paste the configuration link. For the official client, click on the "V" icon in the system tray and select "Import Config".
+### 💻 Windows and 🐧 Linux
+On Windows, we recommend using [Nekoray](https://github.com/MatsuriDayo/nekoray) client. To import a configuration file, simply open the app then on the Program icon , select "Add profile from clipboard", and paste the configuration link.
 
 ### 🤖 Android
-On Android, we recommend using V2rayNG. To import a configuration file, open the app and click on the "+" icon in the bottom right corner. Then, select "Import Config from Clipboard" and paste the configuration link.
+On Android, we recommend using [V2rayNG](https://github.com/2dust/v2rayNG) or [Matsuri](https://github.com/MatsuriDayo/Matsuri). To import a configuration file, open the app and click on the "+" icon in the bottom right corner. Then, select "Import Config from Clipboard" and paste the configuration link.
 
-### 🍎 Mac and 🐧 Linux
-On Mac and Linux, we recommend using the official V2ray client or NekoRay. To import a configuration file, click on the "V" icon in the system tray and select "Import Config". For NekoRay, click on the gear icon in the top right corner, select "Server Configuration", and import the configuration file.
-
-### 📱 iOS
-On iOS, we recommend using Kitsunebi. To import a configuration file, open the app and click on the "+" icon in the top right corner. Then, select "Import from URL" and paste the configuration link.
+### 🍎 Mac and 📱 iOS
+On Mac, we recommend using the [FairVPN](https://apps.apple.com/us/app/fair-vpn/id1533873488). To import a configuration file, simply open the app then at the end of page click "Add VPN  by Link..." and paste the configuration link then hit "ok".
 
 ## Contributing
 ✍️ If you have a V2ray configuration file that you would like to contribute to this repository, simply create a new pull request and we will review it.
