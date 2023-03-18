@@ -37,9 +37,9 @@ jobs:
 
     - name: Push changes to repository
       env:
-        ACCESS_TOKEN: ${{ secrets.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 }}
+        ACCESS_TOKEN: ${{ secrets.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 }}
       run: |
-        git remote set-url origin https://Bardiafa:${{ env.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 }}@github.com/Bardiafa/Free-V2ray-Config.git
+        git remote set-url origin https://Bardiafa:${{ env.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 }}@github.com/Bardiafa/Free-V2ray-Config.git
         git add configs.txt
         git commit -m "Update configs.txt"
         git push origin main
