@@ -12,20 +12,20 @@
 ### 💻 Windows
 On Windows, we recommend using V2rayN or the official V2ray client. To import a configuration file, simply right-click on the V2rayN icon in the system tray, select "Import from clipboard", and paste the configuration link. For the official client, click on the "V" icon in the system tray and select "Import Config".
 
-🤖 Android
+### 🤖 Android
 On Android, we recommend using V2rayNG. To import a configuration file, open the app and click on the "+" icon in the bottom right corner. Then, select "Import Config from Clipboard" and paste the configuration link.
 
-🍎 Mac and 🐧 Linux
+### 🍎 Mac and 🐧 Linux
 On Mac and Linux, we recommend using the official V2ray client or NekoRay. To import a configuration file, click on the "V" icon in the system tray and select "Import Config". For NekoRay, click on the gear icon in the top right corner, select "Server Configuration", and import the configuration file.
 
-📱 iOS
+### 📱 iOS
 On iOS, we recommend using Kitsunebi. To import a configuration file, open the app and click on the "+" icon in the top right corner. Then, select "Import from URL" and paste the configuration link.
 
-Contributing
+## Contributing
 ✍️ If you have a V2ray configuration file that you would like to contribute to this repository, simply create a new pull request and we will review it.
 
-License
+## License
 📝 This repository is licensed under the MIT license. See LICENSE for more information.
 
-Contact
+## Contact
 🙋‍♀️ If you have any questions or concerns, please feel free to reach out to us via our issue tracker.
