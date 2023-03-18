@@ -1,9 +1,9 @@
-name: Python application
+name: My Workflow
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    # Run every 10 minutes
+    - cron: "*/10 * * * *"
 
 jobs:
   build:
@@ -12,43 +12,23 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-      
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.8'
 
-    - name: Install Dependencies
-      run: |
-        python -m venv env
-        source env/bin/activate
-        pip install -r requirements.txt
+    - name: Install dependencies
+      run: pip install -r requirements.txt
 
-    - name: Run application and save output to file
-      run: |
-        source env/bin/activate
-        python app.py > configs.txt
+    - name: Run Python script and save output to file
+      run: python app.py > configs.txt
 
-    - name: Add SSH key
-      run: |
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-
-    - name: Start SSH agent
-      uses: webfactory/ssh-agent@v0.5.3
+    - name: Commit and push files
+      uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-    - name: Create a commit for configs.txt
-      run: |
-        git config --global user.name 'Github Actions'
-        git config --global user.email 'actions@github.com'
-        git add configs.txt
-        git commit -m "Update configs.txt"
-        git remote rm origin
-        git remote add origin git@github.com:Bardiafa/Free-V2ray-Config.git
-        git push origin main
+        commit_message: Update configs.txt
+        file_pattern: configs.txt
+        branch: main
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.YOUR_TOKEN }}
