@@ -1,4 +1,4 @@
-name: My Workflow
+name: Update Configs
 
 on:
   schedule:
