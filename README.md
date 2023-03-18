@@ -10,7 +10,7 @@
 📲 Here are best ways to use V2ray on different operating systems:
 
 ### 💻 Windows and 🐧 Linux
-On Windows, we recommend using [Nekoray](https://github.com/MatsuriDayo/nekoray) or [V2rayN](https://github.com/2dust/v2rayN) client. To import a configuration file in 'nekoray' , simply open the app then on the Program icon , select "Add profile from clipboard", and paste the configuration link. To import a configuration file in 'V2rayN', simply right-click on the V2rayN icon in the system tray, select "Import from clipboard", and paste the configuration link. For the official client, click on the "V" icon in the system tray and select "Import Config".
+On Windows, we recommend using [Nekoray](https://github.com/MatsuriDayo/nekoray) or [V2rayN](https://github.com/2dust/v2rayN) client. To import a configuration file in `nekoray` , simply open the app then on the Program icon , select "Add profile from clipboard", and paste the configuration link. To import a configuration file in `V2rayN`, simply right-click on the V2rayN icon in the system tray, select "Import from clipboard", and paste the configuration link. For the official client, click on the "V" icon in the system tray and select "Import Config".
 
 ### 🤖 Android
 On Android, we recommend using [V2rayNG](https://github.com/2dust/v2rayNG) or [Matsuri](https://github.com/MatsuriDayo/Matsuri). To import a configuration file, open the app and click on the "+" icon in the bottom right corner. Then, select "Import Config from Clipboard" and paste the configuration link.
