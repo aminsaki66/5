@@ -13,14 +13,27 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
 
-    - name: Install dependencies
+    - name: Install Dependencies
       run: |
-        python3 -m venv env
+        python -m venv env
         source env/bin/activate
         pip install -r requirements.txt
 
-    - name: Run application and output to console
+    - name: Run application and save output to file
       run: |
         source env/bin/activate
-        python app.py
+        python app.py > configs.txt
+
+    - name: Create a commit for configs.txt
+      run: |
+        git config --global user.name 'Github Actions'
+        git config --global user.email 'actions@github.com'
+        git add configs.txt
+        git commit -m "Update configs.txt"
+        git push origin main
