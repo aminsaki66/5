@@ -1,0 +1,16 @@
+name: My SSH workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+    - name: Test SSH connection
+      run: ssh -T git@github.com
