@@ -48,11 +48,11 @@ def decode_dir_links(dir_links):
 
 links = [
     'https://sub.EndOfTheLine.cloud/subscribe?tkn=fd82ce20d1c10d1e204fab31c',
-    'https://hero.wlf.beauty/api/v1/client/subscribe?token=e06ee2e5fc3f37afe2b44fd4c845be12'
+    'https://hero.wlf.beauty/api/v1/client/subscribe?token=e06ee2e5fc3f37afe2b44fd4c845be12',
+    'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/EternityAir'
 ]
 dir_links = [
-    'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
-    'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/vmess.txt'
+    'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config'
 ]
 decoded_links = decode_links(links)
 decoded_dir_links = decode_dir_links(dir_links)
