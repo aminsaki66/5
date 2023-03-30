@@ -52,7 +52,8 @@ links = [
     'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/EternityAir'
 ]
 dir_links = [
-    'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config'
+    'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
+    'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/vmess.txt'
 ]
 decoded_links = decode_links(links)
 decoded_dir_links = decode_dir_links(dir_links)
