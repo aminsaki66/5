@@ -27,7 +27,15 @@ jobs:
 
     - name: Run Python script and save output to file
       run: python app.py > configs.txt
-
+      
+    - name: Split configs and save to files
+      run: |
+        cat configs.txt | awk '/vmess:/,/^$/' > vmess
+        cat configs.txt | awk '/vless:/,/^$/' > vless
+        cat configs.txt | awk '/ss:/,/^$/' > ss
+        cat configs.txt | awk '/ssr:/,/^$/' > ssr
+        cat configs.txt | awk '/trojan:/,/^$/' > trojan
+        
     - name: Commit and push files
       uses: EndBug/add-and-commit@v7
       with:
