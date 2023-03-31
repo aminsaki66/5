@@ -33,7 +33,7 @@ jobs:
       with:
         author_name: "Github Actions" 
         author_email: "actions@github.com"
-        message: '`date +\'%Y-%m-%d %H:%M:%S\'`'
+        message: "$(date +'%Y-%m-%d %H:%M:%S')"
         add: "."
         push: "https://github.com/Bardiafa/Free-V2ray-Config.git"
     env:
