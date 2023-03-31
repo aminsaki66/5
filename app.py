@@ -1,5 +1,6 @@
 import pybase64
 import requests
+import json
 
 def decode_base64(encoded):
     decoded = ''
@@ -56,8 +57,19 @@ dir_links = [
     'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/ss.txt',
     'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/ssr.txt'
 ]
+
 decoded_links = decode_links(links)
 decoded_dir_links = decode_dir_links(dir_links)
 merged_configs = decoded_links + decoded_dir_links
+
+vmess_configs = [c for c in merged_configs if 'vmess://' in c]
+vless_configs = [c for c in merged_configs if 'vless://' in c]
+
 with open("configs.txt", "w") as f:
-    f.write(", ".join(merged_configs))
+    json.dump(merged_configs, f)
+
+with open("vmess.txt", "w") as f:
+    json.dump(vmess_configs, f)
+
+with open("vless.txt", "w") as f:
+    json.dump(vless_configs, f)
