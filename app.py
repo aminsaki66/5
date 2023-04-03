@@ -47,7 +47,8 @@ def decode_dir_links(dir_links):
     return decoded_dir_links
 
 links = [
-    'https://sub.EndOfTheLine.cloud/subscribe?tkn=fd82ce20d1c10d1e204fab31c'
+    'https://sub.EndOfTheLine.cloud/subscribe?tkn=fd82ce20d1c10d1e204fab31c',
+    'https://raw.githubusercontent.com/BYEBYEFILTER/v2ray-subscription-link/main/TELEGRAM_%40BYEBYEFILTER.txt'
 ]
 dir_links = [
     'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
