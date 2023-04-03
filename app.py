@@ -57,6 +57,7 @@ dir_links = [
     'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/ss.txt',
     'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/ssr.txt'
 ]
+
 decoded_links = decode_links(links)
 decoded_dir_links = decode_dir_links(dir_links)
 merged_configs = decoded_links + decoded_dir_links
