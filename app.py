@@ -104,7 +104,7 @@ def save_merged_configs_to_file(merged_configs, filename):
 
 def main():
     links = [
-        'https://raw.githubusercontent.com/BYEBYEFILTER/v2ray-subscription-link/main/TELEGRAM_%40BYEBYEFILTER.txt'
+        'https://raw.githubusercontent.com/Goodbyefiltering/Subscribelinks/main/V2ray%20%20Subscribe/Goodbyefiltering.txt'
     ]
     dir_links = [
         'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
