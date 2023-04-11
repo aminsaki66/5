@@ -12,15 +12,17 @@ def decode_base64(encoded):
     Returns:
         str: The decoded text.
     """
-    decoded = ''
-    for encoding in ['utf-8', 'iso-8859-1']:
-        try:
-            decoded = pybase64.b64decode(encoded).decode(encoding)
-            break
-        except (UnicodeDecodeError, binascii.Error):
-            pass
-    return decoded
+  decoded_data = []
 
+    for link in links:
+        response = requests.get(link)
+        encoded_bytes = response.content
+        decoded_text = decode_base64(encoded_bytes)
+        decoded_data.append(decoded_text)
+
+    sorted_configs = generate_v2ray_configs(decoded_data)
+
+    return decoded
 
 def generate_v2ray_configs(decoded_data):
     """
