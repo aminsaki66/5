@@ -2,6 +2,12 @@ name: Splitter
 permissions: write-all
 
 on:
+  workflow_dispatch:
+    inputs:
+      delay_minutes:
+        description: 'Delay in minutes'
+        required: true
+        default: 5
   push:
     branches:
       - main
