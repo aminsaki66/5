@@ -24,15 +24,12 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.11'
-
-    - name: Cd The Files Directory
-      run: cd Files
       
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: cd Files && pip install -r requirements.txt
       
     - name: Run Python script and save output to file
-      run: python sort.py
+      run: cd Files && python sort.py
 
     - name: Commit and push files
       uses: EndBug/add-and-commit@v7
