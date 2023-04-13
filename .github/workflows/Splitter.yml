@@ -7,7 +7,7 @@ on:
       delay_minutes:
         description: 'Delay in minutes'
         required: true
-        default: 5
+        default: 1
   push:
     branches:
       - main
@@ -28,6 +28,9 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
+    - name: Cd The Files Directory
+      run: cd Files
+      
     - name: Run Python script and save output to file
       run: python sort.py
 
