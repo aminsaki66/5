@@ -123,7 +123,6 @@ def main():
     merged_configs = decoded_links + decoded_dir_links
     output_folder = os.path.abspath(os.path.join(os.getcwd(), '..'))
     output_file = os.path.join(output_folder, 'configs.txt')
-    save_merged_configs_to_file(merged_configs, output_file)
 
 
 if __name__ == "__main__":
