@@ -2,15 +2,12 @@ name: Splitter
 permissions: write-all
 
 on:
-  workflow_dispatch:
-    inputs:
-      delay_minutes:
-        description: 'Delay in minutes'
-        required: true
-        default: 1
   push:
     branches:
       - main
+  schedule:
+    # Run every 9 minutes
+    - cron: "*/9 * * * *"
 
 jobs:
   build:
