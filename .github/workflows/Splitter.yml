@@ -25,11 +25,11 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
     - name: Cd The Files Directory
       run: cd Files
+      
+    - name: Install dependencies
+      run: pip install -r requirements.txt
       
     - name: Run Python script and save output to file
       run: python sort.py
