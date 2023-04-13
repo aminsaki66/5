@@ -25,6 +25,9 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
+    - name: Cd The Files Directory
+      run: cd Files
+      
     - name: Run Python script and save output to file
       run: python app.py > configs.txt
 
