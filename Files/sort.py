@@ -2,7 +2,8 @@ import requests
 import os
 import base64
 
-ptt =  os.path.dirname(__file__)
+
+ptt = os.path.abspath(os.path.join(os.getcwd(), '..'))
 vmess_file = os.path.join(ptt, 'splited/vmess.txt')
 vless_file = os.path.join(ptt, 'splited/vless.txt')
 trojan_file = os.path.join(ptt, 'splited/trojan.txt')
