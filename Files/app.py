@@ -90,19 +90,6 @@ def decode_dir_links(dir_links):
     return decoded_dir_links
 
 
-def save_merged_configs_to_file(merged_configs, filename):
-    """
-    Saves merged V2Ray configs to a file.
-
-    Args:
-        merged_configs (List[str]): A list of merged V2Ray configs.
-        filename (str): The name of the file to save the configs to.
-    """
-
-    with open(filename, "w") as f:
-        f.write(", ".join(merged_configs))
-
-
 def main():
     links = [
         'https://raw.githubusercontent.com/Goodbyefiltering/Subscribelinks/main/V2ray%20%20Subscribe/Goodbyefiltering.txt',
@@ -123,6 +110,7 @@ def main():
     merged_configs = decoded_links + decoded_dir_links
     output_folder = os.path.abspath(os.path.join(os.getcwd(), '..'))
     output_file = os.path.join(output_folder, 'configs.txt')
+    save_merged_configs_to_file(merged_configs, output_file)
 
 
 if __name__ == "__main__":
