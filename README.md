@@ -7,9 +7,23 @@
 
 
 ## Usage
-👉 To use one of these configurations, simply open the [configs.txt](https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/configs.txt) file located in the root directory. This file contains a list of links to various V2ray configuration files that you can use with your V2ray client. Copy the link of the configuration file you want to use from the configs.txt file and import it into your V2ray client. Refer to your client's documentation for more information on how to do this.
+👉 To use one of these configurations, simply open the configs.txt file located in the root directory. This file contains a list of links to various V2ray configuration files that you can use with your V2ray client. Copy [THIS LINK](https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/configs.txt) link of the configuration file you want to use from the configs.txt file and import it into your V2ray client. Refer to your client's documentation for more information on how to do this.
 
-⏰ Please note that the configs.txt file is updated every 10 minutes with newer configurations, so make sure to always use the latest version to ensure the best possible performance and security.
+🔒 To ensure the best possible performance and security, we recommend subscribing to our latest configurations using the subscription link feature. Simply copy the subscription link from the configs.txt file and paste it into your V2ray client to receive automatic updates every 10 minutes.
+
+🗂️ For easier configuration management, we have split the configuration files into individual files for each protocol and added them to the Splitted folder. To have easy access to seperated Configs use this : 
+
+Vmess : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/vmess.txt
+
+Vless : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/vless.txt
+
+Trojan : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/trojan.txt
+
+ShadowSocks : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/ss.txt
+
+ShadowSocksR : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/ssr.txt
+
+ℹ️ Additionally, we have created a Wiki with detailed instructions on how to set up V2ray on different operating systems. Visit our Wiki for more information.
 
 ## Requirements and How to Use
 📲 Here are best ways to use V2ray on different operating systems:
