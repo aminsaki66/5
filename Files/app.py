@@ -92,8 +92,7 @@ def decode_dir_links(dir_links):
 
 def main():
     links = [
-        'https://raw.githubusercontent.com/Goodbyefiltering/Subscribelinks/main/V2ray%20%20Subscribe/Goodbyefiltering.txt',
-        'https://erciyun.top/api/v1/client/subscribe?token=f4fbb23a8ab22f17a47aae98863e4bdd'
+        'https://raw.githubusercontent.com/Goodbyefiltering/Subscribelinks/main/V2ray%20%20Subscribe/Goodbyefiltering.txt'
     ]
     dir_links = [
         'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
