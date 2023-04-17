@@ -96,8 +96,8 @@ def main():
     ]
     dir_links = [
         'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
-        'https://mrpooya.xyz/api/sansorchi.php',
-        'https://mrpooya.xyz/api/shenzo.php',
+        'https://raw.githubusercontent.com/Goodbyefiltering/Subscribelinks/main/ServerList/irancell.txt',
+        'https://raw.githubusercontent.com/Goodbyefiltering/Subscribelinks/main/ServerList/HamrahAval.txt',
         'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/vmess.txt',
         'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/trojan.txt',
         'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/ss.txt',
