@@ -109,6 +109,10 @@ def main():
     merged_configs = decoded_links + decoded_dir_links
     output_folder = os.path.abspath(os.path.join(os.getcwd(), '..'))
     output_file = os.path.join(output_folder, 'configs.txt')
+    
+    with open(output_file, 'w') as f:
+        for config in merged_configs:
+            f.write(config + '\n')
 
 
 
