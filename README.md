@@ -1,7 +1,7 @@
 # 🔒 Free V2ray Config 🌐
 💻 This repository contains a collection of free V2ray configuration files that you can use with your V2ray client to access the internet securely and anonymously.
 
-[ورژن فارسی](https://github.com/Bardiafa/Free-V2ray-Config/Persian-README.md)
+[ورژن فارسی](https://github.com/Bardiafa/Free-V2ray-Config/blob/main/Persian-README.md)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Bardiafa/Free-V2ray-Config.svg) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![GitHub stars](https://img.shields.io/github/stars/Bardiafa/Free-V2ray-Config.svg)](https://github.com/Bardiafa/Free-V2ray-Config/stargazers) [![Update Configs](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml/badge.svg)](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml) ![GitHub repo size](https://img.shields.io/github/repo-size/Bardiafa/Free-V2ray-Config) [![CodeFactor](https://www.codefactor.io/repository/github/Bardiafa/Free-V2ray-Config/badge)](https://www.codefactor.io/repository/github/Bardiafa/Free-V2ray-Config) 
 
