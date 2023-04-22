@@ -1,6 +1,6 @@
 # 🔒 کانفیگ رایگان V2ray 🌐
 💻 این مخزن یک مجموعه از کانفیگ های پیکربندی V2ray رایگان را که می توانید با کلاینت V2ray خود برای دسترسی به اینترنت به صورت امن و ناشناس استفاده کنید، شامل می شود.
-[ENGLISH VERSION](https://github.com/Bardiafa/Free-V2ray-Config)
+[ENGLISH VERSION](https://github.com/Bardiafa/Free-V2ray-Config) [中文版](https://github.com/Bardiafa/Free-V2ray-Config/blob/main/Chinese-README.md)
 
 ![آخرین تغییرات](https://img.shields.io/github/last-commit/Bardiafa/Free-V2ray-Config.svg) [![MIT لایسنس](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![GitHub ستاره ها](https://img.shields.io/github/stars/Bardiafa/Free-V2ray-Config.svg)](https://github.com/Bardiafa/Free-V2ray-Config/stargazers) [![بروزرسانی میشود](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml/badge.svg)](https://github.com/Bardiafa/Free-V2ray-Config/actions/workflows/python-app.yml) ![سایز این مجموعه](https://img.shields.io/github/repo-size/Bardiafa/Free-V2ray-Config) [![CodeFactor](https://www.codefactor.io/repository/github/Bardiafa/Free-V2ray-Config/badge)](https://www.codefactor.io/repository/github/Bardiafa/Free-V2ray-Config) 
 
