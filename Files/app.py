@@ -92,12 +92,10 @@ def decode_dir_links(dir_links):
 
 def main():
     links = [
-        'https://raw.githubusercontent.com/Goodbyefiltering/Subscribelinks/main/V2ray%20%20Subscribe/Goodbyefiltering.txt'
+        'https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/Shenzo.txt'
     ]
     dir_links = [
         'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
-        'https://raw.githubusercontent.com/Goodbyefiltering/Subscribelinks/main/ServerList/irancell.txt',
-        'https://raw.githubusercontent.com/Goodbyefiltering/Subscribelinks/main/ServerList/HamrahAval.txt',
         'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/vmess.txt',
         'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/trojan.txt',
         'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/ss.txt',
