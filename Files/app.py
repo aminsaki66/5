@@ -108,11 +108,18 @@ def main():
     merged_configs = decoded_links + decoded_dir_links
     output_folder = os.path.abspath(os.path.join(os.getcwd(), '..'))
     output_file = os.path.join(output_folder, 'configs.txt')
-    
-    with open(output_file, 'w') as f:
-        for config in merged_configs:
-            f.write(config + '\n')
 
+    num_files = 5
+    lines_per_file = len(merged_configs) // num_files
+
+    with open(output_file, 'w') as f:
+        for i in range(num_files):
+            with open(f'{output_file}_{i+1}.txt', 'w') as out:
+                for j in range(lines_per_file):
+                    index = i * lines_per_file + j
+                    if index >= len(merged_configs): # end of list
+                        break
+                    out.write(merged_configs[index] + '\n')
 
 
 if __name__ == "__main__":
