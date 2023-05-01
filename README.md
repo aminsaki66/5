@@ -46,4 +46,10 @@ On Mac, we recommend using the [FairVPN](https://apps.apple.com/us/app/fair-vpn/
 📝 This repository is licensed under the MIT license. See LICENSE for more information.
 
 ## Contact
-🙋‍♀️ If you have any questions or concerns, please feel free to reach out to us via our issue tracker.
+🙋‍♀️ If you have any questions or concerns, please feel free to reach out to us via our discussions tracker.
+
+## Special Thanks To
+[@ircfspace](https://github.com/MrPooyaX)
+[@hossein-mohseni](https://github.com/hossein-mohseni)
+[@mahdibland](https://github.com/mahdibland)
+[@MrPooyaX](https://github.com/MrPooyaX)
