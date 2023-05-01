@@ -4,11 +4,11 @@ import base64
 
 
 ptt = os.path.abspath(os.path.join(os.getcwd(), '..'))
-vmess_file = os.path.join(ptt, 'Splitted/vmess.txt')
-vless_file = os.path.join(ptt, 'Splitted/vless.txt')
-trojan_file = os.path.join(ptt, 'Splitted/trojan.txt')
-ss_file = os.path.join(ptt, 'Splitted/ss.txt')
-ssr_file = os.path.join(ptt, 'Splitted/ssr.txt')
+vmess_file = os.path.join(ptt, 'Splitted-By-Protocol/vmess.txt')
+vless_file = os.path.join(ptt, 'Splitted-By-Protocol/vless.txt')
+trojan_file = os.path.join(ptt, 'Splitted-By-Protocol/trojan.txt')
+ss_file = os.path.join(ptt, 'Splitted-By-Protocol/ss.txt')
+ssr_file = os.path.join(ptt, 'Splitted-By-Protocol/ssr.txt')
 
 open(vmess_file, "w").close()
 open(vless_file, "w").close()
