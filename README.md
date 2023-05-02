@@ -33,15 +33,15 @@ Subscription 8 : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/ma
 
 🗂️ For easier configuration management, we have split the configuration files into individual files for each protocol and added them to the Splitted folder. To have easy access to seperated Configs use this : 
 
-Vmess : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/vmess.txt
+Vmess : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted-By-Protocol/vmess.txt
 
-Vless : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/vless.txt
+Vless : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted-By-Protocol/vless.txt
 
-Trojan : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/trojan.txt
+Trojan : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted-By-Protocol/trojan.txt
 
-ShadowSocks : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/ss.txt
+ShadowSocks : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted-By-Protocol/ss.txt
 
-ShadowSocksR : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/ssr.txt
+ShadowSocksR : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted-By-Protocol/ssr.txt
 
 ℹ️ Additionally, we have created a Wiki with detailed instructions on how to set up V2ray on different operating systems. Visit our Wiki for more information.
 
