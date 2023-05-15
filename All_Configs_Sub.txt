@@ -46,6 +46,8 @@ vless://3365caca-abaa-47ba-ed1d-7e81c753fabe@104.31.16.194:2083?path=%2F%3Fed%3D
 
 vless://6e34f2c5-6c71-4010-c292-10d05ef4a9a2@104.31.16.65:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=worker.iraniancp.click&type=ws&sni=iraniancp.click#Iranian+Cypherpunks+443+worker
 
+vless://9d1c4003-5b9a-4552-c98f-4eaaffe4ada9@93.88.74.97:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=discord.com&fp=firefox&security=reality&pbk=Uhr5tVbWMaOSidsMcNxdBnM2OzO37nH106cPdmIoI1I&sid=d4dd377e#ICP%20REALITY
+
 ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@156.146.38.163:443#%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.163-2287
 ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@156.146.38.163:443#%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.163-0249
 trojan://b0d63b41-7f17-41b3-b5ab-a2e746e69661@163.123.192.62:443?security=tls&sni=download.xn--mes358acgm99l.com#%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.62-0116
