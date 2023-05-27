@@ -48,7 +48,7 @@ ShadowSocksR : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main
 ### 💻 ویندوز و 🐧 لینوکس
 در ویندوز، ما پیشنهاد می کنیم از [Nekoray](https://github.com/MatsuriDayo/nekoray) یا [V2rayN](https://github.com/2dust/v2rayN) استفاده کنید. برای import کردن یک فایل پیکربندی در `nekoray`، به سادگی برنامه را باز کنید، سپس در آیکون برنامه، "Add profile from clipboard" را انتخاب کرده و لینک پیکربندی را paste کنید. برای import کردن یک فایل پیکربندی در `V2rayN`، به سادگی روی آیکون V2rayN در system tray کلیک راست کرده، "Import from clipboard" را انتخاب کرده و لینک پیکربندی را paste کنید. برای اجرای برنامه رسمی، روی آیکون "V" در system tray کلیک کرده و "Import Config" را انتخاب کنید.
 ### 🤖 اندروید
-در اندروید، ما پیشنهاد می کنیم از [V2rayNG](https://github.com/2dust/v2rayNG) یا [Matsuri](https://github.com/MatsuriDayo/Matsuri) استفاده کنید. برای import کردن یک فایل پیکربندی، برنامه را باز کرده و روی آیکون "+" در گوشه پایین سمت راست کلیک کنید. سپس، "Import Config from Clipboard" را انتخاب کرده و لینک پیکربندی را paste کنید.
+در اندروید، ما پیشنهاد می کنیم از [V2rayNG](https://github.com/2dust/v2rayNG) یا [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid) استفاده کنید. برای import کردن یک فایل پیکربندی، برنامه را باز کرده و روی آیکون "+" در گوشه پایین سمت راست کلیک کنید. سپس، "Import Config from Clipboard" را انتخاب کرده و لینک پیکربندی را paste کنید.
 ### 🍎 مک و 📱 آی‌اواس
 در مک، ما پیشنهاد می کنیم از [FairVPN](https://apps.apple.com/us/app/fair-vpn/id1533873488) استفاده کنید. برای import کردن یک فایل پیکربندی، به سادگی برنامه را باز کنید، در پایان صفحه "Add VPN by Link..." را انتخاب کرده و لینک پیکربندی را paste کنید و سپس "ok" را بزنید.
 
