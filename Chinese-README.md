@@ -52,7 +52,7 @@ ShadowSocksR : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main
 在 Windows 上，我们建议使用 Nekoray 或 V2rayN 客户端。要在 nekoray 中导入配置文件，只需打开该应用程序，然后在 Program 图标上选择 "Add profile from clipboard"，并粘贴配置链接即可。要在 V2rayN 中导入配置文件，只需右键单击系统托盘中的 V2rayN 图标，选择 "
 
 ### 🤖 Android
-对于 Android，我们建议使用 V2rayNG 或 Matsuri。要导入配置文件，请打开应用程序，然后单击右下角的“+”图标。然后，选择“从剪贴板导入配置”并粘贴配置链接。
+对于 Android，我们建议使用 V2rayNG 或 NekoBox。要导入配置文件，请打开应用程序，然后单击右下角的“+”图标。然后，选择“从剪贴板导入配置”并粘贴配置链接。
 
 ### 🍎 Mac和📱 iOS
 对于Mac，我们建议使用FairVPN。要导入配置文件，请打开应用程序，然后在页面底部点击“通过链接添加VPN”，并粘贴配置链接，然后点击“确定”。
