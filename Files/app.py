@@ -64,7 +64,8 @@ def main():
     ]
     dir_links = [
         'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
-        'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt'
+        'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt',
+        'https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix'
     ]
 
     decoded_links = decode_links(links)
