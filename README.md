@@ -52,10 +52,12 @@ ShadowSocksR : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main
 On Windows, we recommend using [Nekoray](https://github.com/MatsuriDayo/nekoray) or [V2rayN](https://github.com/2dust/v2rayN) client. To import a configuration file in `nekoray` , simply open the app then on the Program icon , select "Add profile from clipboard", and paste the configuration link. To import a configuration file in `V2rayN`, simply right-click on the V2rayN icon in the system tray, select "Import from clipboard", and paste the configuration link. For the official client, click on the "V" icon in the system tray and select "Import Config".
 
 ### 🤖 Android
-On Android, we recommend using [V2rayNG](https://github.com/2dust/v2rayNG) or [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid). To import a configuration file, open the app and click on the "+" icon in the bottom right corner. Then, select "Import Config from Clipboard" and paste the configuration link.
+On Android, we recommend using [V2rayNG](https://github.com/2dust/v2rayNG) or [HiddifyNG](https://github.com/hiddify/HiddifyNG) or [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid). To import a configuration file, open the app and click on the "+" icon in the bottom right corner. Then, select "Import Config from Clipboard" and paste the configuration link.
 
 ### 🍎 Mac and 📱 iOS
-On Mac, we recommend using the [FairVPN](https://apps.apple.com/us/app/fair-vpn/id1533873488). To import a configuration file, simply open the app then at the end of page click "Add VPN  by Link..." and paste the configuration link then hit "ok".
+On Mac, we recommend using the [FairVPN](https://apps.apple.com/us/app/fair-vpn/id1533873488). To import a configuration file, simply open the app then at the end of page click "Import VPN Configs" and paste the configuration link then hit "ok".
+
+You can also use these apps : [Foxray](https://apps.apple.com/us/app/foxray/id6448898396) , [ShadowRocket](https://apps.apple.com/ca/app/shadowrocket/id932747118) , [V2BOX](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690) , [Streisand](https://apps.apple.com/us/app/streisand/id6450534064)
 
 ## Contributing
 ✍️ If you have a V2ray configuration file that you would like to contribute to this repository, simply create a new pull request and we will review it.
