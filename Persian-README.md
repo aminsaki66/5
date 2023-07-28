@@ -50,7 +50,9 @@ ShadowSocksR : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main
 ### 🤖 اندروید
 در اندروید، ما پیشنهاد می کنیم از [V2rayNG](https://github.com/2dust/v2rayNG) یا [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid) استفاده کنید. برای import کردن یک فایل پیکربندی، برنامه را باز کرده و روی آیکون "+" در گوشه پایین سمت راست کلیک کنید. سپس، "Import Config from Clipboard" را انتخاب کرده و لینک پیکربندی را paste کنید.
 ### 🍎 مک و 📱 آی‌اواس
-در مک، ما پیشنهاد می کنیم از [FairVPN](https://apps.apple.com/us/app/fair-vpn/id1533873488) استفاده کنید. برای import کردن یک فایل پیکربندی، به سادگی برنامه را باز کنید، در پایان صفحه "Add VPN by Link..." را انتخاب کرده و لینک پیکربندی را paste کنید و سپس "ok" را بزنید.
+در مک، ما پیشنهاد می کنیم از [FairVPN](https://apps.apple.com/us/app/fair-vpn/id1533873488) استفاده کنید. برای import کردن یک فایل پیکربندی، به سادگی برنامه را باز کنید، در پایان صفحه "import VPN Configs" را انتخاب کرده و لینک پیکربندی را paste کنید و سپس "ok" را بزنید.
+
+همچنین از این نرم افزار ها نیز میتونید استفاده کنید :  [Foxray](https://apps.apple.com/us/app/foxray/id6448898396) , [ShadowRocket](https://apps.apple.com/ca/app/shadowrocket/id932747118) , [V2BOX](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690) , [Streisand](https://apps.apple.com/us/app/streisand/id6450534064)
 
 ## مشارکت
 ✍️ اگر شما یک فایل پیکربندی V2ray دارید که می‌خواهید به این مخزن کمک کنید، به راحتی یک درخواست pull جدید ایجاد کنید تا آن را بررسی کنیم.
