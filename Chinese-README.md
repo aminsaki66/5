@@ -55,7 +55,9 @@ ShadowSocksR : https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main
 对于 Android，我们建议使用 V2rayNG 或 NekoBox。要导入配置文件，请打开应用程序，然后单击右下角的“+”图标。然后，选择“从剪贴板导入配置”并粘贴配置链接。
 
 ### 🍎 Mac和📱 iOS
-对于Mac，我们建议使用FairVPN。要导入配置文件，请打开应用程序，然后在页面底部点击“通过链接添加VPN”，并粘贴配置链接，然后点击“确定”。
+对于Mac，我们建议使用FairVPN。要导入配置文件，请打开应用程序，然后在页面底部点击“Import VPN Configs”，并粘贴配置链接，然后点击“确定”。
+
+你也可以使用这些应用程序 : [Foxray](https://apps.apple.com/us/app/foxray/id6448898396) , [ShadowRocket](https://apps.apple.com/ca/app/shadowrocket/id932747118) , [V2BOX](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690) , [Streisand](https://apps.apple.com/us/app/streisand/id6450534064)
 
 ## 贡献
 ✍️ 如果您有想要贡献给这个仓库的V2ray配置文件，请创建一个新的pull request，我们会进行审核。
