@@ -60,7 +60,8 @@ def main():
     links = [
         'https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/Shenzo.txt',
         'https://raw.githubusercontent.com/MrPooyaX/SansorchiFucker/main/data.txt',
-        'https://sub1.unlimiteddev.tk/kJFkUtHs2ZyHrmN8bsNaNt4qRg6/9aa6b5ad-c0fc-47f4-a837-f72179d7b662/all.txt?name=new_link_sub-unknown-new&asn=unknown&mode=new&base64=True'
+        'https://sub1.unlimiteddev.tk/kJFkUtHs2ZyHrmN8bsNaNt4qRg6/9aa6b5ad-c0fc-47f4-a837-f72179d7b662/all.txt?name=new_link_sub-unknown-new&asn=unknown&mode=new&base64=True',
+        'https://mrpooya.xyz/api/ramezan/fastRay.php?sub=1'
     ]
     dir_links = [
         'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
